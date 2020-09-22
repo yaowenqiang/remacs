@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 ### autogen.sh - tool to help build Remacs from a repository checkout
 
 ## Copyright (C) 2011-2018 Free Software Foundation, Inc.

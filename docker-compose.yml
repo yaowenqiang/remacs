@@ -6,9 +6,9 @@ services:
       context: .
       dockerfile: docker/ubuntu/Dockerfile
     image: remacs-build:latest
-    working_dir: ${PWD}
+    working_dir: /root/remacs
     tty: true
     # Unfortunately dumping doesn't work without this
     privileged: true
     volumes:
-      - .:${PWD}
+      - .:/root/remacs
